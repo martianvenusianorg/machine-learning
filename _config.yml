@@ -8,6 +8,6 @@ show_visitors: true
 is_theme_by: false
 
 github:
-  martianvenusian_url: https://martianvenusianorg.github.io 
+  martianvenusianorg_url: https://martianvenusianorg.github.io 
   home_url: https://martianvenusianorg.github.io/machine_learning
   repository_name: [Machine Learning]
