@@ -1,6 +1,6 @@
-theme: jekyll-theme-leap-day
-title: [Python dasturlash tili]
-description: [O'zbek tilida]
+theme: jekyll-theme-hacker
+title: [Machine Learning]
+description: [Machine Learning o'zbek tilida]
 show_downloads: false
 show_github_repository: false
 show_description: true
@@ -8,6 +8,6 @@ show_visitors: true
 is_theme_by: false
 
 github:
-  martianvenusian_url: https://martianvenusianorg.github.io
-  home_url: https://martianvenusianorg.github.io/python_uz
-  repository_name: [Python dasturlash tili]
+  martianvenusian_url: https://martianvenusianorg.github.io 
+  home_url: https://martianvenusianorg.github.io/machine_learning
+  repository_name: [Machine Learning]
