@@ -26,7 +26,7 @@ Masofa ko'rsatkichlarini aniqlaydigan bir qancha usullari bo'lsada bularning ora
 ***`Euclidean distance (p=2)`***
 Bu eng keng qo'llaniladigan masofa o'lchovidir va u haqiqiy qiymatli vektorlar bilan cheklanadi holos. U quydagi formuladan foydalanib, so'ralayotgan nuqta va qolgan boshqa nuqta orasidagi to'g'ri chiziqli masofani hisoblaydi.
 
-<img src="/machine-learning/TUTORIALS/SECTIONS/euclidean_distance/euclidean_distance_fuction.png" width="300">
+<img src="/machine-learning/TUTORIALS/SECTIONS/knn/euclidean_distance.png" width="300">
 
 ***`Manhattan distance (p=1)`***
 Bu yana bir mashhur masofa ko'rsatgichi bo'lib, ikki nuqta orasidagi mutlaq qiymatni o'lchaydi. Bu yana  `taxicab distance` yoki `city block distance` ham deb ataladi. Chunki u odatda shahar ko'chalari orqali bir manzildan boshqasiga qanday o'tish mumkinligini ko'rsatadigan panjara bilan tasvirlaydi. 
