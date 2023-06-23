@@ -23,17 +23,25 @@ Berilgan nuqtalarga eng yaqin ma'lumotlar nuqtalari qaysilari ekanligini aniqlas
 
 Masofa ko'rsatkichlarini aniqlaydigan bir qancha usullari bo'lsada bularning orasidan bazilarini ko'rib chiqamiz
 
-***`Euclidean distance (p=2)`***: Bu eng keng qo'llaniladigan masofa o'lchovidir va u haqiqiy qiymatli vektorlar bilan cheklanadi holos. U quydagi formuladan foydalanib, so'ralayotgan nuqta va qolgan boshqa nuqta orasidagi to'g'ri chiziqli masofani hisoblaydi.
+***`Euclidean distance (p=2)`***
+Bu eng keng qo'llaniladigan masofa o'lchovidir va u haqiqiy qiymatli vektorlar bilan cheklanadi holos. U quydagi formuladan foydalanib, so'ralayotgan nuqta va qolgan boshqa nuqta orasidagi to'g'ri chiziqli masofani hisoblaydi.
 
 <img src="/machine-learning/TUTORIALS/SECTIONS/euclidean_distance/euclidean_distance_fuction.png" width="300">
 
-***`Manhattan distance (p=1)`***: Bu yana bir mashhur masofa ko'rsatgichi bo'lib, ikki nuqta orasidagi mutlaq qiymatni o'lchaydi. Bu yana  `taxicab distance` yoki `city block distance` ham deb ataladi. Chunki u odatda shahar ko'chalari orqali bir manzildan boshqasiga qanday o'tish mumkinligini ko'rsatadigan panjara bilan tasvirlaydi. 
+***`Manhattan distance (p=1)`***
+Bu yana bir mashhur masofa ko'rsatgichi bo'lib, ikki nuqta orasidagi mutlaq qiymatni o'lchaydi. Bu yana  `taxicab distance` yoki `city block distance` ham deb ataladi. Chunki u odatda shahar ko'chalari orqali bir manzildan boshqasiga qanday o'tish mumkinligini ko'rsatadigan panjara bilan tasvirlaydi. 
 
 <img src="/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance1.jpeg" width="300">
 
 <img src="/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance2.png" width="300">
 
-***`Minkowski distance`***: Bu masofa ko'rsatgichi *Euclidean* va *Manhattan* masofa ko'rsatgichlarining umumiylashganidir. Pastdagi formuladagi ***p*** parameteri boshqa masofa o'lchovini yaratishga imkon beradi. Bu formuladagi ***p*** 2ga teng bo'lganda 
+***`Minkowski distance`***
+Bu masofa ko'rsatgichi *Euclidean* va *Manhattan* masofa ko'rsatgichlarining umumiylashganidir. Pastdagi formuladagi ***p*** parameteri boshqa masofa o'lchovini yaratishga imkon beradi. Bu formuladagi ***p*** 2ga teng bo'lganda 
 ***Euclidean distance***ni ifodalaydi va ***p*** 1ga teng bo'lganda ***Manhattan distance***ni ifodalaydi.
 
 <img src="/machine-learning/TUTORIALS/SECTIONS/knn/minkowski_distance.png" width="300">
+
+***`Hamming distance`***
+Ushbu o'lchov odatda mantiqiy (*boolean*) yoki string vektorlar bilan ishlatiladi, vektorlar mos kelmaydigan nuqtalarni aniqlaydi. Natijada, u bir-biriga o'xshashlik ko'rsatgichi ham deb ataladi. Buni quyidagi formula bilan ifodalash mumkin.
+
+<img src="/machine-learning/TUTORIALS/SECTIONS/knn/hamming_distance.png" width="300">
