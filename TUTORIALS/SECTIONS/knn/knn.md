@@ -31,7 +31,7 @@ Bu eng keng qo'llaniladigan masofa o'lchovidir va u haqiqiy qiymatli vektorlar b
 ***`Manhattan distance (p=1)`***
 Bu yana bir mashhur masofa ko'rsatgichi bo'lib, ikki nuqta orasidagi mutlaq qiymatni o'lchaydi. Bu yana  `taxicab distance` yoki `city block distance` ham deb ataladi. Chunki u odatda shahar ko'chalari orqali bir manzildan boshqasiga qanday o'tish mumkinligini ko'rsatadigan panjara bilan tasvirlaydi. 
 
-<img src="/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance1.jpeg" width="300">
+<img src="/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance.webp" width="300">
 
 <img src="/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance2.png" width="300">
 
