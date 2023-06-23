@@ -4,9 +4,9 @@ K-Nearest Neighbors Algoritmi (bazan KNN yoki k-NN ham deb yuritiladi) parameter
 
 Klassifikatsiyalash masalalarida, biror bir klasni baholash ko'pchilik ovozlar hisobiga amalga oshadi. Misol uchun berilgan nuqtaning atrofida eng ko'p uchraydigan klasning yorlig'(label)iga  qarab bu nuqta ham shu klasga tegishli deb hulosa qilinadi. Va bu inglizcha adabiyotlarda `majority voting` deb yuritiladi. Ikki kategoriyali ma'lumotlar bilan ishlaganda ko'pchilik ovozlarning soni 50% dan baland bo'lishi talab etiladi. Lekin ikkidan ortiq kategoriyaga ega ma'lumotlar bilan ishlaganda ovozlar soni 50% dan baland qilib belgilash talab etilmaydi. Misol uchun berilgan nuqtaning qaysi klasga tegishli ekanligini 25%dan baland ovoz olgan klasning yorlig'i (label) bilan belgilash mumkin.
 
-![Book logo](./TUTORIALS/SECTIONS/knn/image.png)
+[Book logo](./TUTORIALS/SECTIONS/knn/image.png)
 
-Wisconsin-Madison Universiteti bu haqda juda yaxshi misol keltirib o'tgan (![link](https://sebastianraschka.com/pdf/lecture-notes/stat479fs18/02_knn_notes.pdf)).
+Wisconsin-Madison Universiteti bu haqda juda yaxshi misol keltirib o'tgan ([link](https://sebastianraschka.com/pdf/lecture-notes/stat479fs18/02_knn_notes.pdf)).
 
 Regressiya masalalari ham klasifikatsiya masalalari kabi bir xil tushinchadan foydalanadi, lekin bu holatda, klassifikatsiya haqida bashoratni amalga oshirish uchun o'rtacha `k nearest neighbors` tanlanadi. Bu yerda asosiy farq klasifikatsiya tavsiflovchi qiymatlar uchun ishlatiladi, regressiya esa uzluksiz qiymatlar uchun ishlatiladi. Biroq klasifikatsiya qilinishidan oldin, masofa hisoblab chiqilishi kerak. Bu holatda masofani hisoblashda eng ko'p hollarda `Euclidean distance` ishlatiladi, va keyinchalik bu haqda to'liqroq o'rganamiz.
 
@@ -25,8 +25,8 @@ Masofa ko'rsatkichlarini aniqlaydigan bir qancha usullari bo'lsada bularning ora
 
 ***`Euclidean distance (p=2)`***: Bu eng keng qo'llaniladigan masofa o'lchovidir va u haqiqiy qiymatli vektorlar bilan cheklanadi holos. U quydagi formuladan foydalanib, so'ralayotgan nuqta va qolgan boshqa nuqta orasidagi to'g'ri chiziqli masofani hisoblaydi.
 
-![Book logo](./TUTORIALS/SECTIONS//euclidean_distance/euclidean_distance_fuction.png)
+[Book logo](./TUTORIALS/SECTIONS//euclidean_distance/euclidean_distance_fuction.png)
 
 ***`Manhattan distance (p=1)`***: Bu yana bir mashhur masofa ko'rsatgichi bo'lib, ikki nuqta orasidagi mutlaq qiymatni o'lchaydi. Bu yana  `taxicab distance` yoki `city block distance` ham deb ataladi. Chunki u odatda shahar ko'chalari orqali bir manzildan boshqasiga qanday o'tish mumkinligini ko'rsatadigan panjara bilan tasvirlaydi. 
 
-![Book logo](.TUTORIALS/SECTIONS/knn/manhattan_sitance_formula.png)
+[Book logo](.TUTORIALS/SECTIONS/knn/manhattan_sitance_formula.png)
