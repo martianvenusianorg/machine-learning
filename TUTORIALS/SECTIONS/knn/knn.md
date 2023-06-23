@@ -23,10 +23,10 @@ Berilgan nuqtalarga eng yaqin ma'lumotlar nuqtalari qaysilari ekanligini aniqlas
 
 Masofa ko'rsatkichlarini aniqlaydigan bir qancha usullari bo'lsada bularning orasidan bazilarini ko'rib chiqamiz
 
-`***Euclidean distance (p=2)***`: Bu eng keng qo'llaniladigan masofa o'lchovidir va u haqiqiy qiymatli vektorlar bilan cheklanadi holos. U quydagi formuladan foydalanib, so'ralayotgan nuqta va qolgan boshqa nuqta orasidagi to'g'ri chiziqli masofani hisoblaydi.
+***`Euclidean distance (p=2)`***: Bu eng keng qo'llaniladigan masofa o'lchovidir va u haqiqiy qiymatli vektorlar bilan cheklanadi holos. U quydagi formuladan foydalanib, so'ralayotgan nuqta va qolgan boshqa nuqta orasidagi to'g'ri chiziqli masofani hisoblaydi.
 
-![Book logo](./TUTORIALS/SECTIONS/euclidean_distance/euclidean_distance_fuction.png)
+![Book logo](./TUTORIALS/SECTIONS//euclidean_distance/euclidean_distance_fuction.png)
 
-`***Manhattan distance (p=1)***`: Bu yana bir mashhur masofa ko'rsatgichi bo'lib, ikki nuqta orasidagi mutlaq qiymatni o'lchaydi. Bu yana  `taxicab distance` yoki `city block distance` ham deb ataladi. Chunki u odatda shahar ko'chalari orqali bir manzildan boshqasiga qanday o'tish mumkinligini ko'rsatadigan panjara bilan tasvirlaydi. 
+***`Manhattan distance (p=1)`***: Bu yana bir mashhur masofa ko'rsatgichi bo'lib, ikki nuqta orasidagi mutlaq qiymatni o'lchaydi. Bu yana  `taxicab distance` yoki `city block distance` ham deb ataladi. Chunki u odatda shahar ko'chalari orqali bir manzildan boshqasiga qanday o'tish mumkinligini ko'rsatadigan panjara bilan tasvirlaydi. 
 
-![Book logo](./TUTORIALS/SECTIONS/knn/manhattan_sitance_formula.png)
+![Book logo](.TUTORIALS/SECTIONS/knn/manhattan_sitance_formula.png)
