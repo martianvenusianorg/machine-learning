@@ -29,7 +29,9 @@ Masofa ko'rsatkichlarini aniqlaydigan bir qancha usullari bo'lsada bularning ora
 
 ***`Manhattan distance (p=1)`***: Bu yana bir mashhur masofa ko'rsatgichi bo'lib, ikki nuqta orasidagi mutlaq qiymatni o'lchaydi. Bu yana  `taxicab distance` yoki `city block distance` ham deb ataladi. Chunki u odatda shahar ko'chalari orqali bir manzildan boshqasiga qanday o'tish mumkinligini ko'rsatadigan panjara bilan tasvirlaydi. 
 
-![Book logo](/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance_formula.png | width = 100)
-![Book logo](/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance2.png | width = 100)
+<img src="/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance_formula.png" width="100">
+<img src="/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance2.png" width="100">
+
+
 
 
