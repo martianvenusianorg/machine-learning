@@ -4,7 +4,7 @@ K-Nearest Neighbors Algoritmi (bazan KNN yoki k-NN ham deb yuritiladi) parameter
 
 Klassifikatsiyalash masalalarida, biror bir klasni baholash ko'pchilik ovozlar hisobiga amalga oshadi. Misol uchun berilgan nuqtaning atrofida eng ko'p uchraydigan klasning yorlig'(label)iga  qarab bu nuqta ham shu klasga tegishli deb hulosa qilinadi. Va bu inglizcha adabiyotlarda `majority voting` deb yuritiladi. Ikki kategoriyali ma'lumotlar bilan ishlaganda ko'pchilik ovozlarning soni 50% dan baland bo'lishi talab etiladi. Lekin ikkidan ortiq kategoriyaga ega ma'lumotlar bilan ishlaganda ovozlar soni 50% dan baland qilib belgilash talab etilmaydi. Misol uchun berilgan nuqtaning qaysi klasga tegishli ekanligini 25%dan baland ovoz olgan klasning yorlig'i (label) bilan belgilash mumkin.
 
-<img src="/machine-learning/TUTORIALS/SECTIONS/knn/image.png" width="300">
+<img src="/machine-learning/TUTORIALS/SECTIONS/knn/image.png" width="700">
 
 Wisconsin-Madison Universiteti bu haqda juda yaxshi misol keltirib o'tgan ([link](https://sebastianraschka.com/pdf/lecture-notes/stat479fs18/02_knn_notes.pdf)).
 
@@ -30,8 +30,10 @@ Masofa ko'rsatkichlarini aniqlaydigan bir qancha usullari bo'lsada bularning ora
 ***`Manhattan distance (p=1)`***: Bu yana bir mashhur masofa ko'rsatgichi bo'lib, ikki nuqta orasidagi mutlaq qiymatni o'lchaydi. Bu yana  `taxicab distance` yoki `city block distance` ham deb ataladi. Chunki u odatda shahar ko'chalari orqali bir manzildan boshqasiga qanday o'tish mumkinligini ko'rsatadigan panjara bilan tasvirlaydi. 
 
 <img src="/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance1.jpeg" width="300">
+
 <img src="/machine-learning/TUTORIALS/SECTIONS/knn/manhattan_distance2.png" width="300">
 
+***`Minkowski distance`***: Bu masofa ko'rsatgichi *Euclidean* va *Manhattan* masofa ko'rsatgichlarining umumiylashganidir. Pastdagi formuladagi ***p*** parameteri boshqa masofa o'lchovini yaratishga imkon beradi. Bu formuladagi ***p*** 2ga teng bo'lganda 
+***Euclidean distance***ni ifodalaydi va ***p*** 1ga teng bo'lganda ***Manhattan distance***ni ifodalaydi.
 
-
-
+<img src="/machine-learning/TUTORIALS/SECTIONS/knn/minkowski_distance.png" width="300">
