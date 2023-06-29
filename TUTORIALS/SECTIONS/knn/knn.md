@@ -53,3 +53,29 @@ k-NN algoritmidagi hisoblashda ***k*** qiymat so'ralayotgan maxsus nuqtaning kla
 *k*ning eng yaqin qo'shnilari va python
 
 Yana ham chuqurroq o'rganish uchun siz `Python` va `scikit-learn`(yoki *`sklearn`* deb ataladi)dan foydalanib k-NN algoritmi haqida yana ham ko'proq bilib olishingiz mumkin. Ushbu link (*link hozircha yopiq*) orqali bu haqda to'libroq bilib olasiz
+
+
+
+## Machine learningda k-NN ilovalari
+k-NN algoritmi turli ilovalarda, asosan sinflash masalarida qo'llanilgan. Quydagilar shular jumlasidandir.
+
+- **Ma'lumotlarni qayta ishlash (*Data processing*)**: Ma'lumotlar to'plami odatda ko'plab bo'shliqli qiymatlarga ega bo'ladi. Lekin, KNN algoritmi  `missing data imputation`(yo'qolgan ma'lumotlarni to'ldirish)deb ataluvchi ishlov jarayonida bu yo'qolgan qiymatlarni aniqlaydi.
+
+
+## KNN algoritming afzalliklari va kamchiliklari
+
+Xar qanday *machine learning* algoritmlari singari, k-NN ham o'zining kuchli va zaif tomonlariga ega. Qilinayotgan proyekt (loyiha) yoki *applicaiton*(ilovaga) ga qarab, k-NN to'g'ri yoki noto'g'ri tanlov bo'lishi mumkin.
+
+### Afzalliklari
+- **Qo'llash oson**: Algoritmning soddaligi va aniqligini hisobga olsak, u yangi *data scientist*lar birinchi o'rganadigan sinflovchi(*classifier*)lardan bittasi sanaladi.
+
+- **Oson moslashadi**: Yangi o'qitish namunalari (*training samples*) qo'shilganda, algoritm har qanday yangi ma'lumotni hisobga olish uchun mostlashadi, chunki hamma o'qitish ma'lumotlarini xotirada saqlaydi.
+
+- **Oz sonli *hyperparameter*lar**: KNN faqat *k* qiymatni va masofa ko'rsatgichini talab qiladi, bu boshqa *machine learning* algoritmlari bilan solishtirganda juda ozdir.
+
+### Kamchiliklari
+
+- **O'lchomlilik lanati (*Curse of dimensionality*)**: KNN algoritmi o'lchamlilik lanatining qurboni bo'lishga moyil bo'ladi. Bu degani, ko'p o'lchamli kirish ma'lumotlari bilan ishlaganda yaxshi natija bermaydi. Bu shuningdek bazan *peaking phenomenon* ham deb yuritilib, bunda algoritm eng maqbul *feature*(xususiyat)lar soniga erishgandan so'ng qo'shimcha *features*(xususiyatlar) sinflash xatolarining miqdorini oshirib yuboradi, ayniqsa namuna hajmi kishik bo'lganda yanaham ko'proq kuzatiladi.
+
+
+- ***Overfitting*****ga** **moyil bo'lishlik**: "O'lchamlilik lanati" sababli, KNN *overfitting*ga ko'proq moyil bo'ladi. Xususiyat(*feature*)larni tanlash va o'lchamlarni kamaytirish usullari buning oldini olish uchun qo'llanilsa-da, *k*ning qiymati ham modelning xatti-xarakatiga ta'sir qilishi mumkin. *k*ning past qiymatlari ma'lumotlarga haddan tashqari moslashishi mumkin (*overfitting* ro'y berishi mumkin). Holbuki, *k*ning yuqori qiymatlari bashorat qilingan qiymatlarni silliqlashga moyilroq bo'ladi, chunki u kattaroq hudud yoki *neighborhood*dagi qiymatlarning o'rtachasini hisoblaydi.
