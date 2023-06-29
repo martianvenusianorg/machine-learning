@@ -18,7 +18,7 @@ KNNni hisoblash: Masofa o'lchovchilari (*distance metrics*)
 
 Eslatib o'tamiz, `k-nearest neighbor` algorithmning maqsadi izlanayotgan nuqtaning eng yaqin qo'shnilarini aniqlashdan iboratdir va shundagina biz izlanayotgan nuqtaning qaysi klasga tegishli ekanligini belgilay olamiz. Buni amalga oshirish uchun KNNning bir nechta talablari bor:
 
-### Masofa ko'rsatkichlarini aniqlash
+### KNNni hisoblash: Masofa ko'rsatkichlari
 Berilgan nuqtalarga eng yaqin ma'lumotlar nuqtalari qaysilari ekanligini aniqlash uchun, berilgan nuqta va qolgan ma'lumotlar nuqtalari orasidagi masofalarni aniqlash kerak bo'ladi. Shu masofalar ko'rsatkichlari so'ralayotgan nuqtalarni turli guruhlarga ajratadigan chegaralarni chizishga yordam beradi.
 
 Masofa ko'rsatkichlarini aniqlaydigan bir qancha usullari bo'lsada bularning orasidan bazilarini ko'rib chiqamiz
@@ -45,3 +45,11 @@ Bu masofa ko'rsatgichi *Euclidean* va *Manhattan* masofa ko'rsatgichlarining umu
 Ushbu o'lchov odatda mantiqiy (*boolean*) yoki string vektorlar bilan ishlatiladi, vektorlar mos kelmaydigan nuqtalarni aniqlaydi. Natijada, u bir-biriga o'xshashlik ko'rsatgichi ham deb ataladi. Buni quyidagi formula bilan ifodalash mumkin.
 
 <img src="/machine-learning/TUTORIALS/SECTIONS/knn/hamming_distance.png" width="300">
+
+### KNNni hisoblash: ***k***ni aniqlash
+
+k-NN algoritmidagi hisoblashda ***k*** qiymat so'ralayotgan maxsus nuqtaning klasifikatsiyasini amalga oshirish uchun nechta qo'shni nuqtalarni tekshirish kerakligini bildiradi. Misol uchun, agar k=1 bo'lsa unda eng yaqin qo'shnisi bilan bir xil sinfga doir deb belgilanadi. *k*ni belgilash muvozanatlovchi xarakat bo'lishi mumkin, chunki *k*ga turli qiymatlar berish `overfitting` yoki `underfitting`ga sabab bo'lishi mumkin. *k*ning kichik qiymati yuqori farq(*variance*)ga lekin kechik qiyalik (*bias*) va *k*ning katta qiymati kichik faqt(*variance*)ga lekin kechik qiyalik (*bias*)ga sabab bo'lishi mumkin. *k*ning qiymatini belgilash kiritish ma'lumotlari(*input data*)ga bog'liq, chunki ko'plab istisno va ortiqcha keraksiz shovqinlar(noise)ga ega ma'lumot (*data*) *k*ning yuqori qiymati bilan yaxshi natija berishi mumkin. Umuman olganda, chigallikni oldini olish maqsadida *k*ning qiymatini toq son bilan ifodalash tavsiya etiladi va *`cross-validation`* taktikasi ma'lumotlar to'plamingiz uchun *k*ning eng maqbul qiymatini tanlashda yordam berishi mumkin.
+
+*k*ning eng yaqin qo'shnilari va python
+
+Yana ham chuqurroq o'rganish uchun siz `Python` va `scikit-learn`(yoki *`sklearn`* deb ataladi)dan foydalanib k-NN algoritmi haqida yana ham ko'proq bilib olishingiz mumkin. Ushbu link (*link hozircha yopiq*) orqali bu haqda to'libroq bilib olasiz
